@@ -1,3 +1,6 @@
-header{
-    color: green;
+#container{
+width: 1500px;
+height: 1000px;
+background-image: url("../IMGS/BG1.jpg");
+background-image: no-repeat;
 }
