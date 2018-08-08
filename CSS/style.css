@@ -25,7 +25,6 @@ ul {
 }
 
 li{
-border: solid grey 1px;
 width: 125px;
 text-align: center !important;
 vertical-align: middle !important;
@@ -36,7 +35,6 @@ height: 100% !important;
     font-size: 15px !important;
     vertical-align: middle !important;
     text-align: center !important;
-    border:  1px solid grey !important;
     margin-left: 15% !important;
     width: 200px;
     font-stretch: extra-expanded !important;
