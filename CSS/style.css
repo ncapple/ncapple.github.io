@@ -1,6 +1,43 @@
-#container{
-width: 1500px;
-height: 1000px;
-background-image: url("../IMGS/BG1.jpg");
-background-image: no-repeat;
+.container-fluid{
+background-image: url("../IMGS/BG1.jpg") ;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+height: 1240px;;
+/* border: outset 2px;  */
+position: relative;
+padding: 0 auto;
+margin: 0 auto;
+}
+
+.jumbotron{
+    background-color: transparent !important;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.jumbotron, h1, h3{
+    color: cornflowerblue !important;
+}
+
+ul {
+    margin-left: 15% !important;
+}
+
+li{
+border: solid grey 1px;
+width: 125px;
+text-align: center !important;
+vertical-align: middle !important;
+height: 100% !important; 
+}
+
+.navbar-brand {
+    font-size: 15px !important;
+    vertical-align: middle !important;
+    text-align: center !important;
+    border:  1px solid grey !important;
+    margin-left: 15% !important;
+    width: 200px;
+    font-stretch: extra-expanded !important;
 }
